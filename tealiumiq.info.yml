@@ -1,0 +1,15 @@
+name: Tealium iQ Tag Management
+description: Drupal integration with Tealium iQ Tag Management
+type: module
+package: Tealium
+# core: 8.x
+configure: tealiumiq.settings
+dependencies:
+  - drupal:field
+  - token:token
+
+# Information added by Drupal.org packaging script on 2019-06-05
+version: '8.x-1.0-alpha14'
+core: '8.x'
+project: 'tealiumiq'
+datestamp: 1559723602
